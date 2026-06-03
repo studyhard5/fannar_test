@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;  /* Prevents horizontal scrolling */
+}
+
+.video-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;           /* Full viewport height */
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       /* Covers screen, may crop */
+    object-position: center; /* Centers the cropped area */
+}
+
+/* Make video loop */
+.bg-video {
+    loop: true;  /* In HTML, add the 'loop' attribute */
+}
+#video-hero{
+
+    height:100%;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top:0;
+    left: 0;
+    
+}
+
+#bg-video{
+
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    align-self: center;
+    transition: opacity 0.5s ease;
+
+}
+
+
+
+
+fieldset{
+
+    width: 100px;
+
+}
+
+#side_pannel{
+   
+    width: 90px;
+    justify-self: left;
+    position: fixed;
+    margin-left: 50px;
+    
+}
+
+#side_panne2{
+   
+    width: 130px;
+    justify-self: right;
+    position: fixed;
+    margin-top: 20px;
+   
+    
+}
+
+img{
+
+    height: 150px;
+    transition: transform 0.3s ease;
+    
+}
+
+img:hover{
+    
+  
+    transform: translate(30px,0) ;
+}
+
+#front_screen{
+
+    display: flex;
+    
+    background-color: rgba(240, 255, 255, 0.374);
+    height: 800px;
+    width: 2200px;
+    justify-self: center;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+#social_icons{
+
+ 
+    height:70px;
+  
+   transition: transform 0.5s ease;
+   
+}
+
+#social_icons:hover{
+
+    transform: translate(70px,0);
+}
+
+#social_icons2{
+
+ 
+    height:100px;
+  
+   transition: transform 0.5s ease;
+   
+}
+
+#social_icons2:hover{
+
+    transform: translate(-50px,0);
+}
+
+
+
+
+#social_medias {
+    position: fixed;
+    justify-content: center;
+    gap:60px;
+    left: 50%;
+    transform: translate(-120%,700%);
+    width: 500px;
+    height: 90px;
+    
+}
+
+#sections_icons{
+
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    
+    
+    
+    
+}
+
+
+#img_icons{
+
+    transition: transform 0.5s ease;
+}
+
+#img_icons:hover{
+
+    transform: translate(0,-50px);
+}
+
+h1{
+    
+   transform: translate(360px,-50px);
+    font-size: 50px;
+    color: rgb(193, 165, 129);
+    
+}

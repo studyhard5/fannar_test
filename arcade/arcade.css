@@ -1,0 +1,82 @@
+#div_splash_video{
+
+    height:100%;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top:0;
+    left: 0;
+    
+}
+
+#splash_video{
+
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    align-self: center;
+    transition: opacity 0.5s ease;
+
+}
+
+
+#splash_video.fade-out {
+    opacity: 0;
+}
+
+fieldset{
+
+   width: 100px;
+   border-radius: 10px;
+   border-width: 10px;
+   border-color: red;
+}
+
+#projects{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+}
+img{
+
+    height: 300px;
+}
+
+/*SOCIAL MEDIAS*/
+
+
+#social_medias {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aqua;
+    border-radius: 30px;
+    width: 700px;
+    height: 160px;
+    text-align: center;
+}
+
+#social_medias_form{
+display: flex;
+flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+#social_icons{
+
+    height: 150px;
+   transition: transform 0.5s ease;
+}
+
+#social_icons:hover{
+
+    transform: translate(0,-70px);
+}
+
