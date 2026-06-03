@@ -337,7 +337,7 @@ img:hover{
 #social_medias {
     position: fixed;
     justify-content: center;
-    gap:60px;
+   
     left: 153%;
     transform: translate(-120%,700%);
     width: 500px;
@@ -349,7 +349,7 @@ img:hover{
 
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
     
     
     
